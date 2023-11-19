@@ -1,0 +1,29 @@
+@media (max-width:650px ) {
+
+    img{
+        width:60%;
+        height: 43vh;
+        margin: auto;
+        object-fit: cover;
+    }
+
+    .modal .container{
+        height: 90%;
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        margin: 20px auto;
+    }
+
+    .descricao {
+        font-size: 16px;
+    }
+}
+
+@media (max-width:400px) {
+
+    img {
+        height: 150px;
+    }
+
+}
